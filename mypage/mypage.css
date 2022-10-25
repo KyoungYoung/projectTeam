@@ -1,0 +1,18 @@
+#left{
+    float: left;
+    width: 1000px; 
+    height: 600px;
+
+}
+#right{
+    float: right;
+}
+p{
+    font-size:larger;
+    
+}
+.ch{
+    width: 200px;
+    float: right;
+    background-color: brown;
+}

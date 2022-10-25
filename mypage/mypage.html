@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mypage</title>
+    <link rel="stylesheet" href="mypage.css">
+    <script defer src = "mypage.js"></script>
+</head>
+<body>
+    <div class = "cal">
+        <img src = "">
+       <p><input type="button" value="졸업요건 확인하기" class="ch" onclick="degreerequire_window();"></p>
+       <p><input type="button" value="졸업학점 계산하기" class="cal" onclick="graducation_window();"></p>
+       <div id = "left"><fieldset id="infomation">
+       <legend>내 정보</legend>
+       <p>이름          000</p>
+        <p>학과         000학과</p>
+        <p>학번          201900000</p>
+        <input type = "button" value="로그아웃" id="logout" onclick="alert('로그아웃되었습니다')">
+        </fieldset>
+        </div>
+        
+        <div id="right"><fieldset id="statement">
+        <legend> <right>전공상태 및 비밀번호 변경</legend>
+            <p>전공상태</p>
+            <br><input type="button" value="수정하기" onclick="modify_window();">
+            <br>
+            <p>비밀번호 변경</p>
+            <br><input type="button" value="변경하기" onclick="change_window()">
+        </fieldset>
+        </div>
+
+
+        
+
+    
+</body>
+</html>
