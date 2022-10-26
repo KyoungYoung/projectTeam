@@ -2,17 +2,51 @@
     float: left;
     width: 1000px; 
     height: 600px;
+    font-weight: bold; color: red;
+    border :2px solid black;
+    border-width :large;
+    justify-content : center;
+    font-family: monospace;
+    font-size: large;
+    text-align: center;
 
 }
 #right{
     float: right;
+    text-align: center;
+    font-weight: bold; color: red;
+    border :2px solid black;
+    border-width :large;
+   
 }
+
 p{
     font-size:larger;
-    
+    text-decoration: none; 
+    font-weight: bold; color:darkgreen;
+    text-align: center;
+
 }
+.button {
+    background-color: blue;
+    text-align: center;
+
+}
+
 .ch{
+   
     width: 200px;
-    float: right;
-    background-color: brown;
+    float: left;
+    font-weight: bold; color:navy;
+    background-color: beige;
+}
+.cal{
+    float: left;
+    font-weight: bold; color:red;
+ 
+
+}
+#logout{
+    background-color:blue;
+    font-weight: bold; color: white;
 }

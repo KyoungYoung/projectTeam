@@ -9,6 +9,7 @@
     <script defer src = "mypage.js"></script>
 </head>
 <body>
+    <h1 id="hansei"> hansei mypage</h1>
     <div class = "cal">
         <img src = "">
        <p><input type="button" value="졸업요건 확인하기" class="ch" onclick="degreerequire_window();"></p>
@@ -25,10 +26,10 @@
         <div id="right"><fieldset id="statement">
         <legend> <right>전공상태 및 비밀번호 변경</legend>
             <p>전공상태</p>
-            <br><input type="button" value="수정하기" onclick="modify_window();">
+            <br><input type="button" value="수정하기" id="mstat" onclick="modify_window();">
             <br>
             <p>비밀번호 변경</p>
-            <br><input type="button" value="변경하기" onclick="change_window()">
+            <br><input type="button" value="변경하기" id="mcha" onclick="change_window()">
         </fieldset>
         </div>
 

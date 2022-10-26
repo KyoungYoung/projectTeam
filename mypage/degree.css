@@ -1,6 +1,58 @@
-.serch{
-
-
+#voulcal{
+    font-size: large;
+    border :2px solid rgb(193, 137, 137);
+    border-width :medium;
     justify-content : center;
-
+    font-family: monospace;
+    float: center;
+    width: 150px; 
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background-color: blue;
+    text-decoration: none; 
+    font-weight: bold; color: white;
+}
+#toecal{
+    font-size: large;
+    border :2px solid rgb(193, 137, 137);
+    border-width :medium;
+    justify-content : center;
+    font-family: monospace;
+    float: center;
+    width: 150px; 
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background-color: blue;
+    text-decoration: none; 
+    font-weight: bold; color: white;
+}
+#proch{
+    font-size: large;
+    border :2px solid rgb(193, 137, 137);
+    border-width :medium;
+    justify-content : center;
+    font-family: monospace;
+    float: center;
+    width: 150px; 
+    height: 30px;
+    width: 100px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
+    background-color: blue;
+    text-decoration: none; 
+    font-weight: bold; color: white;
+    
 }
