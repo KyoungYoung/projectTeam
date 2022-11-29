@@ -6,7 +6,8 @@ app.listen(portNum,()=>{
     console.log(`http://localhost:${portNum}`);
 });
 // css 연결
-app.use(express.static('public'));
+app.use(express.static('public/css'));
+app.use(express.static('public/img'));
 
 app.get('/',(req,res) => {
     res.sendFile(__dirname + '/index.html')
