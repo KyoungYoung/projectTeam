@@ -1,0 +1,49 @@
+body {
+  width: 100%;
+  height: 100vh;
+}
+
+.root-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background-image: url("../images/1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.root-container .logo-container {
+  position: absolute;
+  right: 1vw;
+  top: 1vw;
+}
+
+.root-container .logo-container .logo-img {
+  width: 10vw;
+}
+
+.root-container .banner-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  left: 5vw;
+  bottom: 5vw;
+  font-size: 2vw;
+  color: rgb(39, 39, 39);
+}
+
+.root-container .banner-container button {
+  width: 12vw;
+  height: 2vw;
+  border-radius: 10px;
+  border: 0.1vw solid #000;
+  background-color: rgb(68, 194, 152);
+  color: #fff;
+  font-size: 1.1vw;
+  margin-top: 1vw;
+  cursor: pointer;
+}
