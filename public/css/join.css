@@ -5,7 +5,8 @@
 body{
     margin: 0;
     padding: 0;
-
+    background: #e6e6e6;
+    font-family: 'Nanum Gothic', sans-serif;
 }
 
 li{
@@ -40,17 +41,19 @@ legend{
 }
 
 form{
+    margin-top: 70px;
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
-    width: 1300px;
+    width: 1000px;
     padding: 30px;
     box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 25px;
 }
 
 table{
-    width: 100%;
+    width: 80%;
     font-size: 15px;
     text-align: left;
 
@@ -58,6 +61,7 @@ table{
 tr{
     height: 60px;
     border-bottom: 1px solid #f7f7f7;
+    width: 400px;
 }
 tr:last-child{
     border-bottom: none;
@@ -66,6 +70,8 @@ tr:last-child{
 th span{
     position: relative;
     padding-left: 15px;
+    margin-left: 30px;
+
 }
 th span::after{
     content: '*';
@@ -74,21 +80,28 @@ th span::after{
     top: 50%;
     transform: translateY(-50%);
     color: red;
+    margin-left: 20px;
+
 }
 
+.tbl_join {
+    width: 550px;
+    margin-left: 200px;
+
+}
 .tbl_join input{
     min-width: 300px;
     height: 40px;
     background: #f7f7f7;
     border: none;
+    margin-left: 80px;
+
+
 }
 .tbl_join input:focus{
     outline: none;
 }
 
-.tbl_join {
-    margin-left: 25%;
-}
 
 .btn_wrap{
     margin-top: 30px;
@@ -113,5 +126,6 @@ th span::after{
     left: 50%;
     top: 50%;
     transform: translate(-50%,25%);
+    background-color: #fff;
 }   
 
