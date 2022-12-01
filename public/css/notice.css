@@ -1,0 +1,30 @@
+.root2-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+
+  }
+  
+  .logo2-container {
+    position: absolute;
+    right: 46vw;
+    top: 1vw;
+    
+  }
+  
+  .box-container {
+    border: 2px solid rgb(68, 194, 152);
+    margin-left: 11px;
+    margin-right: 11px;
+    margin: 150px 0px;
+    border-radius: 50px;
+    padding: 2vw;
+
+    
+  }
+  
+  .notice-text {
+    font-size: 1.4  vw;
+    text-align: center;
+    font-weight: bold;
+  }
