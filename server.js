@@ -1,10 +1,12 @@
 const express = require('express');
 const app = express();
 const portNum = 3000;
+const bodyParser = require('body-parser');
 const passport = require('passport');
-const LogalStrategy = require('passport-local');
+const LogalStrategy = require('passport-local').Strategy;
 const session = require('express-session');
 const { initialize } = require('passport');
+
 
 app.use(session({secret: '비밀코드',resave: true, saveUninitialized: false}));
 app.use(passport.initialize());

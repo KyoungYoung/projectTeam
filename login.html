@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>로그인</title>
     <link rel="stylesheet" href="/login.css">
+    <script defer src="/login.js"></script>
 </head>
 <body>
 
@@ -21,7 +22,7 @@
             <p>Hansei Graduate란? </p>
             <p>한세대학교 졸업요건을 쉽게 계산해주는 사이트입니다.</p>
         </div>
-        <div class="login_right">
+        <form class="login_right">
             <span>로그인</span>
             <ul class="login_box">
                 <li>
@@ -32,13 +33,13 @@
                 </li>
                 
                 <li class="loginlogin">
-                    <a href="#" class="btn_login">로그인</a>
+                    <button type="submit" class="btn_login">로그인</button>
                 </li>
                 <li>
-                    <a href="/join" class="btn_join">회원가입하기</a>
+                    <button type="submit" class="btn_join">회원가입하기</button>
                 </li>
             </ul>
-        </div>
+        </form>
     </div>
 
 </body>
