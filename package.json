@@ -1,7 +1,6 @@
 {
   "name": "graduate",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -23,5 +22,14 @@
     "passport": "^0.6.0",
     "passport-jwt": "^4.0.0",
     "passport-local": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KyoungYoung/projectTeam.git"
+  },
+  "bugs": {
+    "url": "https://github.com/KyoungYoung/projectTeam/issues"
+  },
+  "homepage": "https://github.com/KyoungYoung/projectTeam#readme",
+  "description": ""
 }
